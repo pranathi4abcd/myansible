@@ -6,7 +6,3 @@
 
 
 
-[mywebservers:vars]
-var= value
-mywebserveronubuntu=apache2
-mywebserveronRedhat=httpd
