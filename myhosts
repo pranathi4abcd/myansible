@@ -8,5 +8,5 @@
 
 [mywebservers:vars]
 var= value
-mywebserveronubuntu=apache22222
+mywebserveronubuntu=apache2
 mywebserveronRedhat=httpd
