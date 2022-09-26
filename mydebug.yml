@@ -4,10 +4,10 @@
   tasks:
   - name: install linux directly
     command: hostname -f 
-    Register: result
+    Register: myresult
 
   - name: view the first task result 
     debug:
-     msg: "{{Register}}"  
+     msg: "{{myresult}}"  
     
      
