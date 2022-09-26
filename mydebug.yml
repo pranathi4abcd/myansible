@@ -9,5 +9,18 @@
   - name: view the first task result 
     debug:
      msg: "{{myresult}}"  
+
+  - name: install tree
+    apt:
+     name: tree
+     state: present
+    when: myresult_stderr= "" 
+
+  - name: install git
+    apt:
+     name: git
+     state: present 
+    when: myresult_stderr!= ""    
+       
     
      
