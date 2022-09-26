@@ -11,3 +11,7 @@
      copy:
       src: mycopyfile
       dest: /home/ubuntu/mycopyfile.txt 
+   - name: dynamic file
+     template:
+      src: mydynamicfile.j2
+      dest: /var/www/html/index.html
